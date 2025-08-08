@@ -1,0 +1,36 @@
+# Deno
+.deno/
+dist/
+*.js
+*.js.map
+
+# Build outputs
+cider-mcp-server
+cider-mcp-server.exe
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+
+# Coverage
+coverage/
+
+# Dependencies lock files
+deno.lock
+
+# Keep Claude MCP configuration
+!.claude/
