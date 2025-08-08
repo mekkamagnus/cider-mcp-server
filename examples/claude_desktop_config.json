@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "cider": {
+      "command": "/usr/local/bin/deno",
+      "args": [
+        "run",
+        "--allow-net",
+        "--allow-read", 
+        "/path/to/cider-mcp/src/index.ts"
+      ],
+      "env": {
+        "CIDER_HOST": "localhost",
+        "CIDER_PORT": "7888"
+      }
+    }
+  }
+}

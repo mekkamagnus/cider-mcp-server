@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cider": {
+      "command": "/usr/local/bin/cider-mcp-server",
+      "args": [],
+      "env": {
+        "CIDER_DEFAULT_HOST": "localhost",
+        "CIDER_DEFAULT_PORT": "7888"
+      }
+    }
+  }
+}

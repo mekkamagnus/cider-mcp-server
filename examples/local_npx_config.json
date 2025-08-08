@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cider": {
+      "command": "npx",
+      "args": ["cider-mcp-server"],
+      "env": {
+        "CIDER_DEFAULT_HOST": "localhost",
+        "CIDER_DEFAULT_PORT": "60977"
+      }
+    }
+  }
+}
