@@ -52,10 +52,10 @@ curl -fsSL https://raw.githubusercontent.com/mekkamagnus/cider-mcp-server/main/s
 **For users**:
 ```bash
 # From tap (recommended)
-brew install your-username/tap/cider-mcp
+brew install mekkamagnus/tap/cider-mcp
 
 # Or directly from URL
-brew install https://raw.githubusercontent.com/YOUR_USERNAME/homebrew-tap/main/Formula/cider-mcp.rb
+brew install https://raw.githubusercontent.com/mekkamagnus/homebrew-tap/main/Formula/cider-mcp.rb
 ```
 
 ### 4. Package Managers
@@ -66,12 +66,12 @@ brew install https://raw.githubusercontent.com/YOUR_USERNAME/homebrew-tap/main/F
 deno install --allow-net --allow-read --name cider-mcp https://raw.githubusercontent.com/mekkamagnus/cider-mcp-server/main/src/index.ts
 
 # Or via JSR
-deno add jsr:@your-username/cider-mcp-server
+deno add jsr:@mekkamagnus/cider-mcp-server
 ```
 
 #### Scoop (Windows)
 ```powershell
-scoop bucket add your-username https://github.com/YOUR_USERNAME/scoop-bucket
+scoop bucket add mekkamagnus https://github.com/mekkamagnus/scoop-bucket
 scoop install cider-mcp-server
 ```
 
@@ -88,7 +88,7 @@ CMD ["deno", "run", "--allow-net", "--allow-read", "src/index.ts"]
 
 **Usage**:
 ```bash
-docker run -p 3000:3000 your-username/cider-mcp-server
+docker run -p 3000:3000 mekkamagnus/cider-mcp-server
 ```
 
 ### 6. Direct from Source (Development)
@@ -193,7 +193,7 @@ The `.github/workflows/release.yml` automatically:
       "command": "docker",
       "args": [
         "run", "--rm", "--network=host",
-        "your-username/cider-mcp-server"
+        "mekkamagnus/cider-mcp-server"
       ]
     }
   }

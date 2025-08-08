@@ -118,7 +118,7 @@ Examples:
     }
   }
 
-For more information, visit: https://github.com/YOUR_USERNAME/cider-mcp-server
+For more information, visit: https://github.com/mekkamagnus/cider-mcp-server
 `);
   process.exit(0);
 }

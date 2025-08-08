@@ -90,10 +90,10 @@ curl -fsSL https://raw.githubusercontent.com/mekkamagnus/cider-mcp-server/main/s
 
 ```bash
 # From tap (when available)
-brew install your-username/tap/cider-mcp
+brew install mekkamagnus/tap/cider-mcp
 
 # Or directly
-brew install https://raw.githubusercontent.com/YOUR_USERNAME/homebrew-tap/main/Formula/cider-mcp.rb
+brew install https://raw.githubusercontent.com/mekkamagnus/homebrew-tap/main/Formula/cider-mcp.rb
 ```
 
 ### Method 4: From Source (Development)
@@ -133,7 +133,7 @@ deno task compile
 
 ```bash
 # Run with Docker
-docker run -p 3000:3000 your-username/cider-mcp-server
+docker run -p 3000:3000 mekkamagnus/cider-mcp-server
 
 # Or via docker-compose
 ```
@@ -144,7 +144,7 @@ docker run -p 3000:3000 your-username/cider-mcp-server
   "mcpServers": {
     "cider": {
       "command": "docker",
-      "args": ["run", "--rm", "--network=host", "your-username/cider-mcp-server"]
+      "args": ["run", "--rm", "--network=host", "mekkamagnus/cider-mcp-server"]
     }
   }
 }
