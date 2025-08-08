@@ -40,7 +40,7 @@ deno task compile-all
 **Install**:
 ```bash
 # One-line install script
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/cider-mcp-server/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mekkamagnus/cider-mcp-server/main/scripts/install.sh | bash
 ```
 
 ### 3. Homebrew (macOS/Linux)
@@ -63,7 +63,7 @@ brew install https://raw.githubusercontent.com/YOUR_USERNAME/homebrew-tap/main/F
 #### npm/JSR (Deno Runtime Required)
 ```bash
 # Global install via deno
-deno install --allow-net --allow-read --name cider-mcp https://raw.githubusercontent.com/YOUR_USERNAME/cider-mcp-server/main/src/index.ts
+deno install --allow-net --allow-read --name cider-mcp https://raw.githubusercontent.com/mekkamagnus/cider-mcp-server/main/src/index.ts
 
 # Or via JSR
 deno add jsr:@your-username/cider-mcp-server
@@ -102,7 +102,7 @@ docker run -p 3000:3000 your-username/cider-mcp-server
         "run",
         "--allow-net", 
         "--allow-read",
-        "https://raw.githubusercontent.com/YOUR_USERNAME/cider-mcp-server/main/src/index.ts"
+        "https://raw.githubusercontent.com/mekkamagnus/cider-mcp-server/main/src/index.ts"
       ]
     }
   }

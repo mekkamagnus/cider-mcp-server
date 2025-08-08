@@ -66,10 +66,10 @@ npx cider-mcp-server --help
 
 ```bash
 # Install via script (macOS/Linux)
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/cider-mcp-server/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mekkamagnus/cider-mcp-server/main/scripts/install.sh | bash
 
 # Or download from releases
-# https://github.com/YOUR_USERNAME/cider-mcp-server/releases
+# https://github.com/mekkamagnus/cider-mcp-server/releases
 ```
 
 **Configuration**:
@@ -101,7 +101,7 @@ brew install https://raw.githubusercontent.com/YOUR_USERNAME/homebrew-tap/main/F
 **Best for**: Contributors, latest features, customization
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cider-mcp-server.git
+git clone https://github.com/mekkamagnus/cider-mcp-server.git
 cd cider-mcp-server
 
 # Run directly
@@ -120,7 +120,7 @@ deno task compile
       "command": "deno",
       "args": [
         "run", "--allow-net", "--allow-read",
-        "https://raw.githubusercontent.com/YOUR_USERNAME/cider-mcp-server/main/src/index.ts"
+        "https://raw.githubusercontent.com/mekkamagnus/cider-mcp-server/main/src/index.ts"
       ]
     }
   }
@@ -265,7 +265,7 @@ npx cider-mcp-server init
       "command": "deno",
       "args": [
         "run", "--allow-net", "--allow-read",
-        "https://raw.githubusercontent.com/YOUR_USERNAME/cider-mcp-server/main/src/index.ts"
+        "https://raw.githubusercontent.com/mekkamagnus/cider-mcp-server/main/src/index.ts"
       ]
     }
   }
@@ -425,7 +425,7 @@ Switch to a different namespace.
 
 ### Local Development
 ```bash
-git clone https://github.com/YOUR_USERNAME/cider-mcp-server.git
+git clone https://github.com/mekkamagnus/cider-mcp-server.git
 cd cider-mcp-server
 
 # Development with hot reload

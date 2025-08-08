@@ -1,7 +1,7 @@
 class CiderMcp < Formula
   desc "MCP server for connecting AI agents to Cider REPL instances"
-  homepage "https://github.com/YOUR_USERNAME/cider-mcp-server"
-  url "https://github.com/YOUR_USERNAME/cider-mcp-server/releases/download/v0.1.0/cider-mcp-server-0.1.0-macos.tar.gz"
+  homepage "https://github.com/mekkamagnus/cider-mcp-server"
+  url "https://github.com/mekkamagnus/cider-mcp-server/releases/download/v0.1.0/cider-mcp-server-0.1.0-macos.tar.gz"
   sha256 "YOUR_SHA256_HERE"
   license "MIT"
 

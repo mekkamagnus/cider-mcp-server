@@ -26,7 +26,7 @@ INSTALL_DIR="${HOME}/.local/bin"
 mkdir -p "$INSTALL_DIR"
 
 # Download URL (GitHub releases)
-REPO_URL="https://github.com/YOUR_USERNAME/cider-mcp-server"
+REPO_URL="https://github.com/mekkamagnus/cider-mcp-server"
 DOWNLOAD_URL="${REPO_URL}/releases/latest/download/${BINARY}"
 
 echo "🔽 Downloading Cider MCP Server for $OS ($ARCH)..."
